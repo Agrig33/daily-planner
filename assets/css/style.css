@@ -1,24 +1,23 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  
+  line-height: 1;
 }
 
-textarea {
+.textarea {
   background: transparent;
-  border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  border-left: 2px solid black;
+  padding: 15px;
 }
 
 .jumbo {
   color: #000000;
   text-align: center;
-  background-color: transparent;
-  border-bottom: 15px dashed black;
-  border-radius: 0;
+  background-color:rgb(195, 205, 206);
+  margin-bottom: 0px;
+  padding: 25px;
 }
 
 .description {
@@ -26,24 +25,23 @@ textarea {
 }
 
 .time-block {
-  border-radius: 15px;
   text-align: center;
 }
 
 .row {
-  border-top: 1px solid white;
+  border-top: solid rgb(195, 205, 206);
   height: 80px;
   white-space: pre-wrap;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: rgb(195, 205, 206);
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px solid #000000;
 }
 
 .past {
-  background-color: #989595;
+  background-color: #b1afaf;
   color: white;
 }
 
@@ -58,7 +56,7 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;

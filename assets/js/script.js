@@ -20,7 +20,7 @@ $('.time-block').each(function() {
 
 //check if time has passed from current hour
 if (blockHour < currentHour) {
-  $(this).addClass('past').removeClass('present future');
+  $(this).addClass('past');
 }
 else if (blockHour === currentHour) {
   $(this).removeClass('past');
