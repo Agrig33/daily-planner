@@ -48,5 +48,5 @@ var interval = setInterval(hourUpdater, 15000);
   $('#hour-16 .description').val(localStorage.getItem('hour-16'));
   $('#hour-17 .description').val(localStorage.getItem('hour-17'));
 
-  $('#currentDay').text(moment().format('dddd, MMMM Do'));
+  $("#currentDay").text(dayjs().format('dddd, MMMM D, h:mm A'));
 });
