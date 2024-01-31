@@ -11,7 +11,7 @@ This application was created to help users schedule their daily tasks in an orga
 5. All tasks will remain saved until deleted.
 
 ## Mock Up
-![Alt Text](./assets/Images/Daily%20Planner.png)
+![Alt Text](./assets/Images/Daily%20Planner-new.png)
 
 ## Link to Application 
 https://agrig33.github.io/daily-planner/
